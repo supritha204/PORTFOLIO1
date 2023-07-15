@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supritha's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,
+    700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(11, 11, 59);
+            color: whitesmoke;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 60px;
+            background-color: rgb(11, 11, 28);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(153, 153, 226);
+            font-size: 1.01rem;
+        }
+
+        main hr {
+            border: 0;
+            background: #9c97f1;
+            height: 1.5px;
+            margin: 40px 84px;
+        }
+
+        .left {
+            font-size: 2rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+
+
+        .firstSection>div {
+            width: 30%;
+            margin: 80px 0;
+
+
+        }
+
+        .leftSection {
+            font-size: 2.5rem;
+
+        }
+
+        .leftSection .btn {
+            background-color: #1f1f3c;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+            padding: 7px
+        }
+
+        .leftSection .button {
+            padding: 19px 0;
+        }
+
+        .rightSection img {
+
+            width: 80%;
+        }
+
+        .Purple {
+            color: blueviolet;
+
+        }
+
+        #element {
+            color: rgb(170, 107, 228);
+        }
+
+        .SecondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 50vh;
+        }
+
+        .SecondSection h1 {
+            font-size: 1.9rem;
+        }
+
+        .SecondSection .box {
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .SecondSection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 100px;
+
+        }
+
+        .image-top {
+            width: 40px;
+            position: relative;
+            top: -25px;
+            left: -9px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 60px;
+            width: 150px;
+            font-size: 20px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 71px;
+            width: 180px;
+            color: gray;
+            font-size: 9px;
+        }
+
+        .vertical-title-last {
+            position: relative;
+            top: 60px;
+            width: 112px;
+            font-size: 14px;
+        }
+
+        .vertical-desc-last {
+            position: relative;
+            top: 50px;
+            width: 5px;
+            color: gray;
+            font-size: 20px;
+        }
+
+        footer {
+            background-color: #1d1d62;
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 23px;
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+        }
+
+        @media screen and (max-width: 300px) {}
+    </style>
+    <style>
+        /* Additional styles for the About section */
+        .about-info {
+            display: none;
+            margin-top: 20px;
+        }
+    </style>
+
+
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href=""> Home</a></li>
+                    <li>
+                        <a href="about.html" target="_blank">About</a>
+                    </li>
+                    <li><a href="">
+                        <a href="internships.html" target="_blank">Internships</a></li>
+
+                    <li><a href="">
+                            <a href="projects.html" target="_blank">Projects</a></li>
+                    <li><a href="">
+                            <a href="Certifications.html" target="_blank">Certifications</a></li>
+
+                </ul>
+            </div>
+        </nav>
+
+
+
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hai, My name is <span class="Purple">Supritha.</span>
+                <div> I am passionate </div>
+                <div>Web Developer</div>
+
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn" onclick="SUPRITHA ">
+                        <a href="SUPRITHA RESUME .pdf">RESUME</a></button>
+                    <button class="btn">Github</button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="imgg.jpg">
+            </div>
+
+        </section>
+        <hr>
+
+        <section class="SecondSection">
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="img2.jpg" alt="">
+                    <div class="vertical-title">
+                        RISHI HIGH SCHOOL 
+                    </div>
+                    <div class="vertical-desc">
+                        Completed my  schooling and SSCin Rishi high School 
+                        in the year of 2018 with GPA :98%
+                    </div>
+                </div>
+                
+                <div class="vertical">
+                    <img class="image-top" src="img2.jpg" alt="">
+                    <div class="vertical-title">
+                        URBANE JUNIOR COLLEGE
+                    </div>
+                    <div class="vertical-desc">
+                        Completed my intermediate in Urabane Junior College in the
+                        year of 2020 with Percentage :97%
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="img2.jpg" alt="">
+                    <div class="vertical-title">
+                        URBANE JUNIOR COLLEGE
+                    </div>
+                    <div class="vertical-desc">
+                        Completed my intermediate in Urabane Junior College in the
+                        year of 2020 with Percentage :97%
+                    </div>
+                </div>
+
+
+
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Supritha's Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Content</li>
+                    <li>Services</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Content</li>
+                    <li>Services</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Content</li>
+                    <li>Services</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169; Suprithaportfolio.com | All rights reserved
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Java programmer.'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>

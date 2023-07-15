@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<head>
+    <title>Projects</title>
+    <style>
+        body {
+                background-color: rgb(50, 50, 50);
+                color: whitesmoke;
+                font-family: 'Poppins', sans-serif;
+        }
+        
+        .container {
+                display: flex;
+                align-items: flex-start; /* Align items to the top */
+                justify-content: flex-end; /* Align items to the right */
+                padding: 100px;
+               position: relative;
+}
+.container2 {
+    display: flex;
+    align-items: flex-start; /* Align items to the top */
+    justify-content: flex-end; /* Align items to the right */
+    padding: 100px;
+   position: relative;
+}
+
+.top-left {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.top-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+            
+        h1 {
+            margin-top: 350;
+        }
+        h2 {
+            margin-top: 350;
+        }
+
+        .info {
+            width: 60%;
+            padding:3px;
+            box-sizing: border-box;
+            color:whitesmoke;
+            text-align:initial;
+            top: 50%;
+            left:40px;
+            
+        }
+        .info2{
+            width: 60%;
+            padding:2px;
+            box-sizing: border-box;
+            text-align:initial;
+            top:200px;
+            margin: 0;
+            position: absolute;
+            top: 40px;
+            right:600px;
+            left:20px;
+            
+        }
+        
+          
+          
+        
+        img {
+            top:800px;
+            width: 50%;
+            height: 800px;
+            width:500px;
+
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+  <img src="librr.jpg" alt="Image" class="top-left" />
+  <div class="info">
+            <h1> Library Management</h1>
+            <p>A Library Management System is a software application designed to
+                handle various library operations efficiently, such as cataloging, 
+                borrowing and returning books, 
+               managing member records, and generating reports</p>
+               <p>Project Overview:</p>
+               <li>Language: Java</li>
+               <li>Database Management System: MySQL, Oracle, or any other DBMS</li>
+               <li>User Interface: Swing or JavaFX for creating the graphical user interface (GUI)</li>
+               <p>Key Features:</p>
+               <p>Book Management:</p>
+               <li>Add new books to the library catalog.</li>
+               <li>Update book information, such as title, author, ISBN, and publication details.</li>
+               <li>Delete books from the catalog.</li>
+               <p>Member Management:</p>
+               <li>Add new members to the library system.</li>
+               <li>Update member details, including name, contact information, and membership status.</li>
+               <li>Remove members from the system.</li>
+               <p>Borrowing and Returning Books:</p>
+               <li> Allow members to borrow books from the library.</li>
+               <li>Record the borrowing and returning dates of books.</li>
+               <li>Send notifications for overdue books.</li>
+    </div>
+    </div>
+               <div class="container2">
+  <img src="hhel.png" alt="Image" class="top-right" />
+<div class="info2">
+                    <h1> Number Plate and Helmet Detection</h1>
+                <p>Number Plate Recognition (NPR) is a computer 
+                    vision-based technology 
+                    in which we capture the image of vehicle. 
+                    After capturing the image of the vehicle we extract the number plate 
+                    of a vehicle to identify the details of the owner of the vehicle.
+                   
+                    </p>
+                  <p>Requirements:</p>
+                    <p>Hardware Requirements:</p>
+                    <li>Camera</li>
+                    <li>Computer Infra Red Detector (for night images) </li>
+                    <li>GPU (graphical Processing Unit)
+                    </li>
+                    <p>Software Requirements:</p>
+                    <li>Number plate recognition software</li>
+                    <li> Database</li>
+                    <li>A backend system for provide the details of number of Car</li>
+                    <p>WORKING:</p>
+                    <li>Capturing of image from camera</li>
+                    <li> Pre processing of image</li>
+                    <li>Number plate detection from image (using YOLO)</li>
+                    <li>Character recognition from plate</li>
+                    <li>Output of character to the Database</li>
+            </div> 
+               </div>       
+</body>
+</html>

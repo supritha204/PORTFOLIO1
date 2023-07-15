@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Projects</title>
+    <style>
+        body {
+            background-color: gray;
+                color: whitesmoke;
+                font-family: 'Poppins', sans-serif;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .section {
+            width: 50%;
+            height:50px;
+            padding: 2px;
+        }
+
+        .image {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 50px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="section">
+            <h2>Library Management</h2>
+            <div class="image">
+                <img src="lib.jpeg" alt="Image 1">
+            </div>
+            <p>A Library Management System is a software application designed to
+                 handle various library operations efficiently, such as cataloging, 
+                 borrowing and returning books, 
+                managing member records, and generating reports</p>
+                <p>Project Overview:</p>
+                <li>Language: Java</li>
+                <li>Database Management System: MySQL, Oracle, or any other DBMS</li>
+                <li>User Interface: Swing or JavaFX for creating the graphical user interface (GUI)</li>
+                <p>Key Features:</p>
+
+<p>Book Management:</p>
+<li>Add new books to the library catalog.</li>
+<li>Update book information, such as title, author, ISBN, and publication details.</li>
+<li>Delete books from the catalog.</li>
+<p>Member Management:</p>
+<li>Add new members to the library system.</li>
+<li>Update member details, including name, contact information, and membership status.</li>
+<li>Remove members from the system.</li>
+<p>Borrowing and Returning Books:</p>
+<li> Allow members to borrow books from the library.</li>
+<li>Record the borrowing and returning dates of books.</li>
+<li>Send notifications for overdue books.</li>
+
+
+        </div>
+        <div class="section">
+            <h3>Number Plate and Helmet Detection</h3>
+            <div class="image">
+                <img src="hel.jpeg" alt="Image 2">
+            </div>
+            <p>Number Plate Recognition (NPR) is a computer vision-based technology in which we capture the image of vehicle. 
+                After capturing the image of the vehicle we extract the number plate of a vehicle to identify the details of the owner of the vehicle.
+                After this we pass the detected plate to the Optical Character 
+                Recognition system where it will detect the character from the video 
+                and provide the number plate of the vehicle as a string to the Database and  
+                image of number plate.
+</p>
+<p>Requirements:</p>
+                <p>Hardware Requirements:</p>
+                <li>Camera</li>
+                <li>Computer Infra Red Detector (for night images) </li>
+                <li>GPU (graphical Processing Unit)
+                </li>
+                <p>Software Requirements:</p>
+                <li>Number plate recognition software</li>
+                <li> Database</li>
+                <li>A backend system for provide the details of number of Car</li>
+                <p>WORKING:</p>
+                <li>Capturing of image from camera</li>
+                <li> Pre processing of image</li>
+                <li>Number plate detection from image (using YOLO)</li>
+                <li>Character recognition from plate</li>
+                <li>Output of character to the Database</li>
+        </div>
+    </div>
+</body>
+</html>
